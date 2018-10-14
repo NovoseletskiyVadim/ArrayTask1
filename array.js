@@ -22,6 +22,10 @@ console.log("работа метода \"shift\":")
 console.log("первый  удаленный ел.массива:", firstDeleteElemetArray_myMonth);
 console.log("Исходный массив:",myMonth);
 
+//add method "join"
+var myJoin=myMonth.join("-");
+console.log("работа метода \"Join\"",myJoin);
+
 
 
 
