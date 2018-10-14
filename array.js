@@ -24,7 +24,7 @@ console.log("Исходный массив:",myMonth);
 
 //add method "join"
 var myJoin=myMonth.join("-");
-console.log("работа метода \"Join\"",myJoin);
+console.log("работа метода \"Join\":",myJoin);
 
 
 
