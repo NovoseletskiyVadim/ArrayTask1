@@ -27,6 +27,22 @@ var myJoin=myMonth.join("-");
 console.log("работа метода \"Join\":",myJoin);
 
 
+//add method "concat"
+var myConcat=myMonth.concat("декабрь");
+console.log("работа метода(конкатенация 1 го значения\"декабрь\" ):",myConcat);
+console.log("работа метода(конкатенация массивов ):");
+var myArray_1=new Array("март");
+var myArray_2=new Array("апрель");
+console.log(" создаем 2 массива"+"Array_1: ", myArray_1 ," и myArray_2: ",myArray_2);
+var myConcat_1=myArray_1.concat(myArray_2);
+console.log("работа метода(конкатенация двух массивов ):",myConcat_1);
+
+
+
+
+
+
+
 
 
 
