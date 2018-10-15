@@ -63,6 +63,34 @@ for(var i=0;i<myMonthForSlice.length;i++){
 }
 console.log("лето состоит из 3 х месяцев :",myMonthForSlice.slice(3,6));
 
+//add method "splice" variant 1
+console.log("работа метода 'splice'");
+console.log("исходный массив:");
+var myMonthForSplice=['январь','февраль','март','апрель','май','июнь','июль','август','сентябрь','октябрь','ноябрь','декабрь'];
+for(var i=0;i<myMonthForSlice.length;i++){
+    console.log("Вывод",i+1,"-го елемента массива. Значение:",myMonthForSplice[i]);
+};
+console.log("вот и пролетело время...",myMonthForSplice.splice(0,9));
+console.log("осталось до конца года ..:", myMonthForSplice);
+
+//add method "splice" variant 1
+console.log("работа метода 'splice' - variant 2");
+var period=['июнь','июль','август'];
+console.log("исходный массив:");
+console.log(period);
+console.log("splice заменил елементы массива на новые");
+period.splice(0,3, 'сентябрь','октябрь','ноябрь');
+console.log(period);
+
+
+
+
+
+
+
+
+
+
 
 
 
