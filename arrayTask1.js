@@ -1,3 +1,6 @@
+//Методы Массива
+
+
 //add new array
 var myMonth=new Array("июнь","июль","август");
 console.log("Исходный массив:",myMonth);
@@ -36,6 +39,21 @@ var myArray_2=new Array("апрель");
 console.log(" создаем 2 массива"+"Array_1: ", myArray_1 ," и myArray_2: ",myArray_2);
 var myConcat_1=myArray_1.concat(myArray_2);
 console.log("работа метода(конкатенация двух массивов ):",myConcat_1);
+
+//add method "forEach"
+var myNumber=new Array(6,3,7,8,1,3,9,4,12,10,6,28,20,15)
+console.log("работа метода \"forEach\"",myNumber);
+
+//add method "split"
+var str='Июнь,Июль,Август';
+console.log("Вывод строки",str);
+var myArray=str.split(',');
+for(var i=0;i<myArray.length;i++){
+    console.log("Вывод",i+1,"-го елемента массива. Значение:",myArray[i]);
+}
+
+
+
 
 
 
