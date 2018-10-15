@@ -13,6 +13,7 @@ console.log("работа метода \"push\":",myMonth);
 myMonth.unshift("март","апрель","май");
 console.log("работа метода \"unshift\":",myMonth);
 
+
 //add method "pop"
 var lastDeleteElemetArray_myMonth =myMonth.pop();
 console.log("работа метода \"pop\":")
@@ -47,10 +48,22 @@ console.log("работа метода \"forEach\"",myNumber);
 //add method "split"
 var str='Июнь,Июль,Август';
 console.log("Вывод строки",str);
+console.log("работа метода 'split'");
 var myArray=str.split(',');
 for(var i=0;i<myArray.length;i++){
     console.log("Вывод",i+1,"-го елемента массива. Значение:",myArray[i]);
 }
+
+//add method "slice"
+console.log("работа метода 'slice'")
+console.log("исходный массив:")
+var myMonthForSlice=['март','апрель','май','июнь','июль','август','сентябрь','октябрь','ноябрь','декабрь']
+for(var i=0;i<myMonthForSlice.length;i++){
+    console.log("Вывод",i+1,"-го елемента массива. Значение:",myMonthForSlice[i]);
+}
+console.log("лето состоит из 3 х месяцев :",myMonthForSlice.slice(3,6));
+
+
 
 
 
